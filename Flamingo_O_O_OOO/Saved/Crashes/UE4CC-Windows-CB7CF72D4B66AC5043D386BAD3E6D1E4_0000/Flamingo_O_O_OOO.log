@@ -1,0 +1,800 @@
+﻿Log file open, 02/03/19 19:50:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Flamingo_O_O_OOO
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.335611
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin InputBuffer
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  3.314s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.373s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.03-19.50.52:714][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.03-19.50.52:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.03-19.50.52:914][  0]LogHAL: Display: Platform has ~ 8 GB [8459030528 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.03-19.50.52:914][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.03-19.50.52:914][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.03-19.50.52:915][  0]LogInit: Computer: ALESSIO
+[2019.02.03-19.50.52:915][  0]LogInit: User: aless
+[2019.02.03-19.50.52:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.03-19.50.52:915][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.03-19.50.52:915][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.03-19.50.52:915][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.03-19.50.52:915][  0]LogMemory: Process Physical Memory: 103.42 MB used, 103.42 MB peak
+[2019.02.03-19.50.52:915][  0]LogMemory: Process Virtual Memory: 91.48 MB used, 91.48 MB peak
+[2019.02.03-19.50.52:915][  0]LogMemory: Physical Memory: 5434.37 MB used,  2632.79 MB free, 8067.16 MB total
+[2019.02.03-19.50.52:915][  0]LogMemory: Virtual Memory: 4642.80 MB used,  2632.79 MB free, 134217728.00 MB total
+[2019.02.03-19.50.53:185][  0]LogInit: Using OS detected language (en-US).
+[2019.02.03-19.50.53:185][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.03-19.50.53:186][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.03-19.50.53:549][  0]LogStreaming: Display: Took  0.364s to InitEngineTextLocalization.
+[2019.02.03-19.50.53:550][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.03-19.50.53:674][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.03-19.50.53:675][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.03-19.50.54:086][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.03-19.50.54:086][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.03-19.50.54:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.02.03-19.50.54:245][  0]LogD3D11RHI:       4021/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.03-19.50.54:441][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.02.03-19.50.54:441][  0]LogD3D11RHI:       128/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.03-19.50.54:444][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.03-19.50.54:444][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.03-19.50.54:444][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.03-19.50.54:472][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.03-19.50.54:472][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.02.03-19.50.54:472][  0]LogWindows: EnumDisplayDevices:
+[2019.02.03-19.50.54:473][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.02.03-19.50.54:474][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.02.03-19.50.54:474][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.02.03-19.50.54:474][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.03-19.50.54:474][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.02.03-19.50.54:474][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.03-19.50.54:474][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.03-19.50.54:474][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.02.03-19.50.54:524][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.03-19.50.54:541][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.03-19.50.54:543][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Intermediate/Shaders/WorkingDirectory/17892/).
+[2019.02.03-19.50.54:543][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aless/AppData/Local/Temp/UnrealShaderWorkingDir/312E1A374AD898C477C668B8383C79C4/'.
+[2019.02.03-19.50.56:255][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.03-19.50.56:283][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.03-19.50.56:310][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.03-19.50.56:338][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.03-19.50.56:366][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.03-19.50.56:394][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.03-19.50.56:423][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.03-19.50.56:453][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.03-19.50.56:477][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:578][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.03-19.50.56:595][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.03-19.50.56:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.03-19.50.56:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.03-19.50.56:748][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.03-19.50.56:748][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.03-19.50.56:778][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.03-19.50.56:807][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.03-19.50.56:838][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.03-19.50.56:868][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.03-19.50.56:894][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.03-19.50.56:894][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.03-19.50.57:409][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.03-19.50.57:409][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.03-19.50.57:409][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.03-19.50.58:213][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: Loaded boot cache 0.56s 71MB C:/Users/aless/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aless/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.03-19.50.58:774][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.03-19.50.58:790][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.03-19.50.58:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aless/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.03-19.50.58:804][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.03-19.50.58:804][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.03-19.50.58:823][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.03-19.50.58:826][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.03-19.50.58:876][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.03-19.51.01:510][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2019.02.03-19.51.01:896][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.03-19.51.02:313][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.03-19.51.02:376][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.03-19.51.02:376][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.03-19.51.02:376][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.03-19.51.02:376][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.03-19.51.02:398][  0]LogNetVersion: Flamingo_O_O_OOO 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3041211453)
+[2019.02.03-19.51.03:802][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.852611 seconds
+[2019.02.03-19.51.03:808][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.03-19.51.03:808][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.03-19.51.03:808][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.03-19.51.50:497][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.03-19.51.50:527][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.03-19.51.51:567][  0]SourceControl: Source control is disabled
+[2019.02.03-19.51.51:568][  0]SourceControl: Source control is disabled
+[2019.02.03-19.51.51:603][  0]SourceControl: Source control is disabled
+[2019.02.03-19.51.51:621][  0]SourceControl: Source control is disabled
+[2019.02.03-19.51.53:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.03-19.51.53:479][  0]LogOcInput: OculusInput pre-init called
+[2019.02.03-19.51.53:747][  0]LogEngine: Initializing Engine...
+[2019.02.03-19.51.53:748][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.03-19.51.53:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.03-19.51.53:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.03-19.51.53:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.03-19.51.53:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.03-19.51.53:983][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.03-19.51.54:020][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.03-19.51.54:084][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.03-19.51.54:155][  0]LogInit: FAudioDevice initialized.
+[2019.02.03-19.51.54:155][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.03-19.51.54:327][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/aless/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.03-19.51.54:331][  0]LogInit: Texture streaming: Enabled
+[2019.02.03-19.51.54:410][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.03-19.51.54:443][  0]LogInit: Transaction tracking system initialized
+[2019.02.03-19.51.54:563][  0]BlueprintLog: New page: Editor Load
+[2019.02.03-19.51.55:159][  0]LocalizationService: Localization service is disabled
+[2019.02.03-19.51.56:538][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.03-19.51.56:538][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.03-19.51.56:538][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.03-19.51.56:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.03-19.51.56:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.03-19.51.56:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.03-19.51.56:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.03-19.51.59:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/' took 0.08s
+[2019.02.03-19.52.01:675][  0]SourceControl: Source control is disabled
+[2019.02.03-19.52.01:675][  0]Cmd: MAP LOAD FILE="../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.03-19.52.01:676][  0]LightingResults: New page: Lighting Build
+[2019.02.03-19.52.01:679][  0]MapCheck: New page: Map Check
+[2019.02.03-19.52.01:679][  0]LightingResults: New page: Lighting Build
+[2019.02.03-19.52.30:552][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.03-19.52.31:060][  0]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.52.31:111][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.03-19.52.31:140][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.03-19.52.31:270][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.034ms to complete.
+[2019.02.03-19.52.31:270][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 29.596
+[2019.02.03-19.52.31:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-19.52.31:689][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-19.52.31:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-19.52.31:703][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-19.52.31:810][  0]LogCollectionManager: Loaded 0 collections in 0.011499 seconds
+[2019.02.03-19.52.31:856][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Collections/' took 0.01s
+[2019.02.03-19.52.31:856][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/Developers/aless/Collections/' took 0.01s
+[2019.02.03-19.52.31:856][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/Collections/' took 0.01s
+[2019.02.03-19.52.31:856][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.03-19.52.31:865][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2578 classes and 608 folders.
+[2019.02.03-19.52.31:873][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.03-19.52.34:961][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.03-19.52.35:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.03-19.52.35:177][  0]LogSlate: Took 0.062284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.03-19.52.35:361][  0]LogSlate: Took 0.181390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.03-19.52.35:429][  0]LogSlate: Took 0.016855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.03-19.52.36:008][  0]LogRenderer: Reallocating scene render targets to support 852x268 Format 9 NumSamples 1 (Frame:1).
+[2019.02.03-19.52.36:444][  0]LogSlate: Took 0.031885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.03-19.52.36:674][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.03-19.52.36:674][  0]LogLoad: (Engine Initialization) Total time: 116.97 seconds
+[2019.02.03-19.52.36:674][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.03-19.52.37:005][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.02.03-19.52.37:769][  1]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.52.37:812][  2]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_2:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.52.37:837][  2]LogAssetRegistry: Asset discovery search completed in 96.3498 seconds
+[2019.02.03-19.52.37:840][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.03-19.52.37:840][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.02.03-19.53.53:587][339]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.02.03-19.53.54:014][339]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.03-19.53.56:881][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.03-19.53.56:923][510]LogRenderer: Reallocating scene render targets to support 852x272 Format 9 NumSamples 1 (Frame:51).
+[2019.02.03-19.53.56:981][511]LogRenderer: Reallocating scene render targets to support 852x276 Format 9 NumSamples 1 (Frame:53).
+[2019.02.03-19.53.57:038][512]LogRenderer: Reallocating scene render targets to support 852x288 Format 9 NumSamples 1 (Frame:55).
+[2019.02.03-19.53.57:094][513]LogRenderer: Reallocating scene render targets to support 852x308 Format 9 NumSamples 1 (Frame:57).
+[2019.02.03-19.53.57:143][514]LogRenderer: Reallocating scene render targets to support 852x324 Format 9 NumSamples 1 (Frame:59).
+[2019.02.03-19.53.57:193][515]LogRenderer: Reallocating scene render targets to support 852x332 Format 9 NumSamples 1 (Frame:61).
+[2019.02.03-19.53.57:250][516]LogRenderer: Reallocating scene render targets to support 852x336 Format 9 NumSamples 1 (Frame:63).
+[2019.02.03-19.53.57:303][517]LogRenderer: Reallocating scene render targets to support 852x364 Format 9 NumSamples 1 (Frame:65).
+[2019.02.03-19.53.57:350][518]LogRenderer: Reallocating scene render targets to support 852x388 Format 9 NumSamples 1 (Frame:67).
+[2019.02.03-19.53.57:409][519]LogRenderer: Reallocating scene render targets to support 852x412 Format 9 NumSamples 1 (Frame:69).
+[2019.02.03-19.53.57:464][520]LogRenderer: Reallocating scene render targets to support 852x416 Format 9 NumSamples 1 (Frame:71).
+[2019.02.03-19.53.57:516][521]LogRenderer: Reallocating scene render targets to support 852x420 Format 9 NumSamples 1 (Frame:73).
+[2019.02.03-19.53.57:568][522]LogRenderer: Reallocating scene render targets to support 852x428 Format 9 NumSamples 1 (Frame:75).
+[2019.02.03-19.53.57:626][523]LogRenderer: Reallocating scene render targets to support 852x448 Format 9 NumSamples 1 (Frame:77).
+[2019.02.03-19.53.57:675][524]LogRenderer: Reallocating scene render targets to support 852x452 Format 9 NumSamples 1 (Frame:79).
+[2019.02.03-19.53.57:725][525]LogRenderer: Reallocating scene render targets to support 852x456 Format 9 NumSamples 1 (Frame:81).
+[2019.02.03-19.54.00:044][662]LogSlate: Took 0.032322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.03-19.54.00:054][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro
+[2019.02.03-19.54.01:187][662]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.02.03-19.54.02:766][662]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.02:818][662]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.02:818][662]LogSlate: Took 0.017532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.03-19.54.03:470][663]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:471][663]LogSlate: Took 0.040721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.03-19.54.03:508][665]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:519][666]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:536][667]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:553][668]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:570][669]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:587][670]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:604][671]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:621][672]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:637][673]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:654][674]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:670][675]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:692][676]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:704][677]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:716][678]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.03:738][679]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.25:233][951]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1
+[2019.02.03-19.54.25:579][951]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.03-19.54.26:970][951]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.03-19.54.26:971][951]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.26:976][951]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.02.03-19.54.27:339][951]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.03-19.54.27:792][951]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:848][952]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:881][953]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:899][954]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:924][955]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:940][956]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:956][957]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:973][958]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.27:990][959]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.28:006][960]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.28:023][961]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.28:040][962]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Enemybro_AnimBP1_C_0
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-19.54.30:445][ 93]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.02.03-19.54.30:529][ 93]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.03-19.54.30:535][ 94]LogSlate: Window 'Enemybro_AnimBP1' being destroyed
+[2019.02.03-20.02.40:835][129]BlueprintLog: New page: Compile Enemybro
+[2019.02.03-20.02.41:703][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.41:721][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_2:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.41:742][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:105][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:106][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:114][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_2:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:115][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_2:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:115][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:117][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:135][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:136][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:137][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:138][129]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:217][130]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:226][131]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:241][132]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:255][133]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:272][134]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:289][135]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:305][136]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:322][137]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:339][138]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:355][139]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:372][140]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:389][141]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:405][142]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:422][143]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:439][144]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:456][145]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.42:472][146]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.02.43:117][184]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.03-20.02.43:207][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.02.43:217][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.03-20.02.43:452][184]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 3, 2019, 8:02:43 PM)
+[2019.02.03-20.02.43:452][184]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.03-20.02.43:541][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088430s)
+[2019.02.03-20.02.43:541][184]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.03-20.02.43:553][184]LogPlayLevel: PIE: World Init took: (0.012949s)
+[2019.02.03-20.02.43:568][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.115631s)
+[2019.02.03-20.02.43:729][184]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.03-20.02.43:752][184]LogInit: FAudioDevice initialized.
+[2019.02.03-20.02.43:804][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-20.02.43:965][184]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.03-20.02.44:002][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property enemyref". Blueprint:  Enemybro_AnimBP1 Function:  Execute Ubergraph Enemybro Anim BP1 Graph:  Transition Node:  Result
+[2019.02.03-20.02.44:036][184]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.02.03-20.02.44
+[2019.02.03-20.02.44:257][184]LogWorld: Bringing up level for play took: 0.290582
+[2019.02.03-20.02.44:302][184]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.03-20.02.44:392][184]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.02.03-20.02.44:554][184]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.058
+[2019.02.03-20.02.44:574][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.02.45:142][205]LogBlueprintUserMessages: [InputBufferController_C_0] [] [LightSwing] 
+[2019.02.03-20.02.46:787][258]LogBlueprintUserMessages: [InputBufferController_C_0] [] [Forward] 
+[2019.02.03-20.02.47:691][311]LogScript: Warning: Accessed None trying to read property AnimBPRef
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0046
+[2019.02.03-20.02.47:692][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AnimBPRef". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.47:692][311]LogScript: Warning: Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0079
+[2019.02.03-20.02.47:692][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.49:126][396]LogScript: Warning: Accessed None trying to read property AnimBPRef
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0046
+[2019.02.03-20.02.49:127][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AnimBPRef". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.49:127][396]LogScript: Warning: Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0079
+[2019.02.03-20.02.49:127][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.50:558][482]LogScript: Warning: Accessed None trying to read property AnimBPRef
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0046
+[2019.02.03-20.02.50:559][482]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AnimBPRef". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.50:559][482]LogScript: Warning: Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue
+	Enemybro_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.Enemybro_C:ExecuteUbergraph_Enemybro:0079
+[2019.02.03-20.02.50:560][482]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetCurrentActiveMontage_ReturnValue". Blueprint:  Enemybro Function:  Execute Ubergraph Enemybro Graph:  EventGraph Node:  Get Play Length
+[2019.02.03-20.02.50:662][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.02.50:703][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-20.02.50:752][488]LogSlate: Window 'Flamingo_O_O_OOO Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.03-20.02.50:899][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.03-20.02.50:899][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.02.51:146][489]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.03-20.03.06:313][390]BlueprintLog: New page: Compile Enemybro
+[2019.02.03-20.03.06:378][390]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.03.06:380][390]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.03.06:382][390]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_2:PersistentLevel.Enemybro_C_1.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.03.06:522][390]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_1
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0195
+[2019.02.03-20.03.10:589][415]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Enemybro8A24F1694C1904CE61E4FA98A4F3B2B3.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.uasset'
+[2019.02.03-20.03.38:579][851]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/ThirdPersonExampleMap_Auto1705BF0AE47A9DAA8D985DDAD970B6EC0.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.02.03-20.03.38:613][851]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.141
+[2019.02.03-20.03.38:614][851]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.141
+[2019.02.03-20.03.38:892][851]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro] ([1] browsable assets)...
+[2019.02.03-20.03.38:893][851]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro]
+[2019.02.03-20.03.39:102][851]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Enemybro_Auto1CFE457C240EF086D5B8B548AED10CB42.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_Auto1.uasset'
+[2019.02.03-20.03.39:208][851]LogFileHelpers: Auto-saving content packages took 0.593
+[2019.02.03-20.04.14:092][ 81]BlueprintLog: New page: Compile Enemybro
+[2019.02.03-20.04.15:077][102]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/EnemybroAA44B6FD4759B5AEA2EA38956A88CC5B.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.uasset'
+[2019.02.03-20.04.26:659][733]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/ThirdPersonExampleMapDA11B96944E149004943D3A49D02463F.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.02.03-20.04.34:587][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.03-20.04.40:091][519]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/FromMixamogreat_sword_slash.FromMixamogreat_sword_slash
+[2019.02.03-20.04.40:524][519]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.03-20.04.40:796][519]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.03-20.04.42:076][519]LogRenderer: Reallocating scene render targets to support 912x456 Format 9 NumSamples 1 (Frame:1).
+[2019.02.03-20.04.42:076][519]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.03-20.05.46:603][ 88]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2019.02.03-20.05.46:627][ 88]LogAnimationCompression: Recompressing (AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.03-20.05.46:728][ 88]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoModelsAndAnimations/Animations/RetargetedAnims/ForSKMannequinsword_and_shield_slash.ForSKMannequinsword_and_shield_slash
+[2019.02.03-20.05.46:728][ 88]LogAnimationCompression: Recompressing (AnimSequence /Game/MixamoModelsAndAnimations/Animations/RetargetedAnims/ForSKMannequinsword_and_shield_slash.ForSKMannequinsword_and_shield_slash) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.03-20.05.47:364][ 88]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoModelsAndAnimations/Animations/RetargetedAnims/ForSKMannequinsword_and_shield_slash__4_.ForSKMannequinsword_and_shield_slash__4_
+[2019.02.03-20.05.47:364][ 88]LogAnimationCompression: Recompressing (AnimSequence /Game/MixamoModelsAndAnimations/Animations/RetargetedAnims/ForSKMannequinsword_and_shield_slash__4_.ForSKMannequinsword_and_shield_slash__4_) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.03-20.05.55:217][529]LogSlate: Window 'Animation Notifies' being destroyed
+[2019.02.03-20.05.55:225][529]LogSlate: Window 'Animation Notifies' being destroyed
+[2019.02.03-20.06.52:878][875]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/FromMixamogreat_sword_slash3C1CF1404703FD90A50C808D551B99DB.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/Mannequin/Animations/FromMixamogreat_sword_slash.uasset'
+[2019.02.03-20.08.19:252][ 91]BlueprintLog: New page: Compile Enemybro
+[2019.02.03-20.08.20:743][129]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/EnemybroF70625D04E2EAEF486AFFB9BF8379507.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.uasset'
+[2019.02.03-20.08.41:231][317]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/EnemybroE0EEB4EC42A49F325B486ABC7284DDB9.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro.uasset'
+[2019.02.03-20.10.13:182][299]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.15:212][408]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP
+[2019.02.03-20.10.15:252][408]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.03-20.10.15:252][408]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:046][408]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:240][408]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.03-20.10.16:287][409]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:314][410]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:330][411]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:347][412]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:364][413]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:387][414]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:403][415]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:420][416]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:437][417]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:453][418]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:470][419]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:487][420]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:504][421]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.10.16:520][422]LogScript: Warning: Accessed None trying to read property PlayerRef
+	IBWarrior_AnimBP_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.IBWarrior_AnimBP_C_0
+	Function /Game/InfinityBladeWarriors/Animations/IBWarrior_AnimBP.IBWarrior_AnimBP_C:ExecuteUbergraph_IBWarrior_AnimBP:07A2
+[2019.02.03-20.11.45:019][401]BlueprintLog: New page: Compile Enemybro_AnimBP1
+[2019.02.03-20.11.45:052][401]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.45:053][401]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.45:967][402]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.45:983][403]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.45:996][404]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:013][405]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:028][406]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:045][407]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:062][408]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:078][409]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:095][410]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:111][411]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:128][412]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:144][413]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:160][414]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:180][415]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:194][416]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:213][417]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:226][418]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.11.46:815][427]LogSavePackage: Moving '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Saved/Enemybro_AnimBP1929EC2C24B3AA700D8AC2CAA55F646B7.tmp' to '../../../../../../Users/aless/Documents/GitHub/UnrealFinalProject/Flamingo_O_O_OOO/Content/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.uasset'
+[2019.02.03-20.12.07:958][618]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.12.07:966][618]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Enemybro_2.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.12.07:972][618]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.12.07:980][618]LogScript: Warning: Accessed None trying to read property enemyref
+	Enemybro_AnimBP1_C /Engine/Transient.World_3:PersistentLevel.Enemybro_C_0.CharacterMesh0.Enemybro_AnimBP1_C_2
+	Function /Game/ThirdPersonBP/Blueprints/AI/BaseEnemy/Enemybro_AnimBP1.Enemybro_AnimBP1_C:ExecuteUbergraph_Enemybro_AnimBP1:0139
+[2019.02.03-20.12.09:486][703]BlueprintLog: New page: Compile Enemybro
+[2019.02.03-20.12.10:689][758]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.03-20.12.10:729][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.12.10:729][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.03-20.12.10:729][758]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 3, 2019, 8:12:10 PM)
+[2019.02.03-20.12.10:729][758]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.03-20.12.10:733][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004078s)
+[2019.02.03-20.12.10:734][758]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.03-20.12.10:734][758]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2019.02.03-20.12.10:734][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.004881s)
+[2019.02.03-20.12.10:774][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.03-20.12.10:797][758]LogInit: FAudioDevice initialized.
+[2019.02.03-20.12.10:809][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.03-20.12.10:895][758]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.03-20.12.10:898][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property enemyref". Blueprint:  Enemybro_AnimBP1 Function:  Execute Ubergraph Enemybro Anim BP1 Graph:  Transition Node:  Result
+[2019.02.03-20.12.10:899][758]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.02.03-20.12.10
+[2019.02.03-20.12.10:900][758]LogWorld: Bringing up level for play took: 0.003563
+[2019.02.03-20.12.10:915][758]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.03-20.12.10:918][758]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.578
+[2019.02.03-20.12.11:602][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.03-20.12.12:292][792]LogBlueprintUserMessages: [InputBufferController_C_0] [] [LightSwing] 
+[2019.02.03-20.12.15:059][889]LogWindows: Windows GetLastError: The operation completed successfully. (0)
